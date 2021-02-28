@@ -81,8 +81,17 @@ li:hover {
     background-color: #a18976;
 }
 
-#sub-section-2 {
+#sub-section-21 {
     font-family: 'Galdeano', sans-serif;
     color: #4e3a2a;
     box-shadow: 2px 2px 4px #fdad6b;
+}
+
+.hover-shadow:hover {
+    box-shadow: 1px 1px 16px black;
+}
+
+.img-s {
+    width: 225px;
+    height: 225px;
 }
