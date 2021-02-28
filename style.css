@@ -20,18 +20,8 @@
     background: #ff9557;
 }
 
-.bg-nav {
+.bg-nav, footer {
     background-color: #fdad6b;
-}
-
-.fixed {
-    position:fixed;
-    width: 100%;
-    top: 0%;
-}
-
-main {
-    margin-top: 80px;
 }
 
 .brand-font {
@@ -94,4 +84,17 @@ li:hover {
 .img-s {
     width: 225px;
     height: 225px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+#sub-section-23 {
+    width: 40%;
+    margin: auto;
+}
+
+.c-btn:hover {
+    background-color: #e09354;
 }
