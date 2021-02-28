@@ -86,10 +86,6 @@ li:hover {
     height: 225px;
 }
 
-.card {
-    overflow: hidden;
-}
-
 #sub-section-23 {
     width: 40%;
     margin: auto;
@@ -97,4 +93,10 @@ li:hover {
 
 .c-btn:hover {
     background-color: #e09354;
+}
+
+footer {
+    overflow: hidden;
+    font-family: 'Akaya Telivigala', cursive;
+    color: #4e3a2a;
 }
