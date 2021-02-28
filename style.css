@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -11,6 +12,8 @@
 
 ::-webkit-scrollbar-thumb {
     background: #fd996b;
+    height: 2px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -70,4 +73,8 @@ li:hover {
 
 #s-p {
     background-color: #a18976;
+}
+
+#sub-section-2 {
+    font-family: 'Galdeano', sans-serif;
 }
