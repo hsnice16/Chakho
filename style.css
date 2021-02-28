@@ -24,8 +24,14 @@
     background-color: #fdad6b;
 }
 
-.nav-pos {
-    position: fixed;
+.fixed {
+    position:fixed;
+    width: 100%;
+    top: 0%;
+}
+
+main {
+    margin-top: 80px;
 }
 
 .brand-font {
