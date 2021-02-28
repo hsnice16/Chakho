@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffc79a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fd996b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff9557;
+}
+
+.bg-nav {
+    background-color: #fdad6b;
+}
+
+.nav-pos {
+    position: fixed;
+}
+
+.brand-font {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+@media (min-width: 800px) {
+    .img-mt {
+        margin-top: -10px;
+    }
+
+    .li-ml {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 400px)
+{
+    .mbl {
+        margin-left: 1em;
+        border-left: 5px solid white;
+    }
+}
+
+li:hover {
+    background-color: #e09354;
+    border-radius: 5px;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+#section-1 {
+    background-image: url("food.jpeg");
+    font-family: cursive;
+    overflow: hidden;
+}
+
+#section-1 > p {
+    padding: 3em;
+    text-shadow: 2px 2px 4px #a18976;
+    color: rgb(252, 209, 200);
+}
+
+#s-p {
+    background-color: #a18976;
+}
